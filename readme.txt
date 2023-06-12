@@ -1,11 +1,5 @@
 === Nombre del Plugin ===
-Contribuyentes: [Nombre del autor o autores]
-Tags: [tags separados por comas]
-Requiere como mínimo: [Versión mínima requerida de WordPress]
-Testeado hasta: [Versión máxima probada de WordPress]
-Versión: [Versión actual del plugin]
-Licencia: [Tipo de licencia del plugin]
-Licencia URI: [URL de la licencia del plugin]
+Versión: 1.0
 
 == Descripción ==
 
@@ -28,8 +22,6 @@ Utiliza este plugin para proporcionar a tus usuarios una forma interactiva y vis
 
 == Uso ==
 
-== Uso ==
-
 Una vez que hayas instalado y activado el plugin "Calculadora de Intereses", sigue estos pasos para usarlo en tu sitio web:
 
 1. Agrega la calculadora de intereses a una página o entrada utilizando el shortcode `[calculadora_intereses]`.
@@ -40,23 +32,9 @@ Una vez que hayas instalado y activado el plugin "Calculadora de Intereses", sig
 
 4. Los visitantes podrán ver la tabla de amortización y comprender cómo se distribuyen los pagos de capital e intereses a lo largo del plazo del préstamo.
 
-Utiliza el plugin "Calculadora de Intereses" para brindar a tus usuarios una herramienta interactiva y educativa para calcular y comprender los intereses y la amortización de los préstamos. Puedes insertar la calculadora en páginas de préstamos, páginas de productos financieros, o cualquier otra página donde desees que tus usuarios realicen cálculos de préstamos.
-
-
-== Capturas de pantalla ==
-
-[Aquí puedes incluir capturas de pantalla del plugin en acción]
-
-== FAQ ==
-
-[Preguntas frecuentes sobre el plugin]
 
 == Changelog ==
 
 = Versión 1.0 =
 
 - Primera versión del plugin.
-
-== Licencia ==
-
-[Detalles sobre la licencia del plugin]

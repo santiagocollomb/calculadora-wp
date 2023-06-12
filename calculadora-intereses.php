@@ -180,6 +180,13 @@ function mostrar_calculadora_intereses() {
                         <input class="form-field" type="text" name="cuotas" id="cuotas" />
                     </div>
                 </div>
+                <div class="input-container interes">
+                    <label for="interes">Tasa de interes:</label>
+                    <div class="form-group">
+                        <span>%</span>
+                        <input class="form-field" type="text" name="interes" id="interes" disabled value="<?php echo obtener_tasa_interes()?>"/>
+                    </div>
+                </div>
                 <input type="submit" name="calcular" class="button button-primary" value="Calcular" />
             </div>
         </form>

@@ -48,12 +48,12 @@
   border-radius: 0.25rem;
 }
 
-body .form-group {
+.calculadora-intereses .form-group {
   max-width: 160px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
-.form-field {
+.calculadora-intereses .form-field {
   display: block;
   width: 100%;
   padding: 8px 16px;
@@ -68,46 +68,52 @@ body .form-group {
 
   transition: border 0.3s ease;
 }
-.form-field::placeholder {
+.calculadora-intereses .interes .form-field {
+  background-color: #eef4ff;
+  width: 4rem;
+}
+.calculadora-intereses .form-field::placeholder {
   color: #cbd1dc;
 }
-.form-field:focus {
+.calculadora-intereses .form-field:focus {
   outline: none;
   border-color: #275efe;
 }
 
-.form-group {
+.calculadora-intereses .form-group {
   position: relative;
   display: flex;
   width: 100%;
 }
-.form-group > span,
-.form-group .form-field {
+.calculadora-intereses .form-group > span,
+.calculadora-intereses .form-group .form-field {
   white-space: nowrap;
   display: block;
 }
-.form-group > span:not(:first-child):not(:last-child),
-.form-group .form-field:not(:first-child):not(:last-child) {
+.calculadora-intereses .form-group > span:not(:first-child):not(:last-child),
+.calculadora-intereses
+  .form-group
+  .form-field:not(:first-child):not(:last-child) {
   border-radius: 0;
 }
-.form-group > span:first-child,
-.form-group .form-field:first-child {
+.calculadora-intereses .form-group > span:first-child,
+.calculadora-intereses .form-group .form-field:first-child {
   border-radius: 6px 0 0 6px;
 }
-.form-group > span:last-child,
-.form-group .form-field:last-child {
+.calculadora-intereses .form-group > span:last-child,
+.calculadora-intereses .form-group .form-field:last-child {
   border-radius: 0 6px 6px 0;
 }
 
-.form-group.no-span .form-field {
+.calculadora-intereses .form-group.no-span .form-field {
   border-radius: 6px;
 }
-.form-group > span:not(:first-child),
-.form-group .form-field:not(:first-child) {
+.calculadora-intereses .form-group > span:not(:first-child),
+.calculadora-intereses .form-group .form-field:not(:first-child) {
   margin-left: -1px;
 }
 
-.form-group > span {
+.calculadora-intereses .form-group > span {
   text-align: center;
   padding: 8px 12px;
   font-size: 14px;
@@ -117,7 +123,7 @@ body .form-group {
   border: 1px solid #cdd9ed;
   transition: background 0.3s ease, border 0.3s ease, color 0.3s ease;
 }
-.form-group:focus-within > span {
+.calculadora-intereses .form-group:focus-within > span {
   color: #fff;
   background: #678efe;
   border-color: #275efe;
